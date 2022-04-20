@@ -1,0 +1,3 @@
+this program was compiled using g++ from the terminal using the following flags
+
+g++ -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic "Branch Predictor.cpp" bi_modal.cpp file_obj.cpp g_sharecpp.cpp -o  branchp.exe
