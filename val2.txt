@@ -1,0 +1,48 @@
+===== Simulator configuration =====
+BLOCKSIZE:  16
+L1_SIZE: 1024
+L1_ASSOC:   2
+L1_PSEUDO-ASSOC-EN:  0
+L2_SIZE: 0
+L2_ASSOC:   0
+L2_PSEUDO-ASSOC-EN:  0
+trace_file: gcc_trace.txt
+===== L1 contents =====
+set	0:	20018a    20028d  D 
+set	1:	20028e  D 20028d  D 
+set	2:	2001c1  D 200153  D 
+set	3:	20028d  D 200198  D 
+set	4:	20028d    200223  D 
+set	5:	200149    2001c1    
+set	6:	20028e  D 20028d  D 
+set	7:	2001ac  D 20018a    
+set	8:	20018a    20018f  D 
+set	9:	2000f9    20018f  D 
+set	10:	2000fa    20017a    
+set	11:	200009    20018a    
+set	12:	200009    20028d  D 
+set	13:	200009    2000f9    
+set	14:	2001ac    200009    
+set	15:	2001b2  D 200009    
+set	16:	200009    3d819c  D 
+set	17:	200009    20017b  D 
+set	18:	200009    2000f9    
+set	19:	2001b2  D 200009    
+set	20:	200009    2000fa    
+set	21:	200214    200009    
+set	22:	200009    20023f    
+set	23:	2001ab    20013a    
+set	24:	20018f  D 2001f2    
+set	25:	2001aa    2001ab    
+set	26:	20028d  D 20028c  D 
+set	27:	20018d  D 20028d  D 
+set	28:	20013a    20028d  D 
+set	29:	20018d  D 20013a    
+set	30:	20018d  D 20028c  D 
+set	31:	2001f8  D 20028c  D 
+===== Simulation results (raw) =====
+a. number of L1 reads: 63640
+b. number of L1 read misses: 8592
+c. number of L1 writes: 36360
+d. number of L1 write misses: 7753
+e. L1 miss rate: 0.16345
